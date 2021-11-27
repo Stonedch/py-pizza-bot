@@ -25,7 +25,7 @@ class PizzaMachine(Machine):
 
     def set_message(self, message=None):
         if self.state == PizzaStates.confirmation:
-            self.message = f'Вы хотите {self.size.lower()}, оплата - {self.payment.lower()}?'
+            self.message = f'Вы хотите {self.size.lower()} пиццу, оплата - {self.payment.lower()}?'
             return
         self.message = PizzaStates(self.state).value
 
