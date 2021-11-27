@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+
+    bot:
+        build:
+            context: .
+            dockerfile: ./docker/bot/Dockerfile
+        container_name: 'pizza-bot'
+        command: 'python app.py'
+        volumes:
+            - ./src/:/usr/src/app
