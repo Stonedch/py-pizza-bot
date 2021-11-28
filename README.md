@@ -1,5 +1,7 @@
 # Pizza TG Bot
 
+This's a simple chatbot that uses a state machine to order pizza.
+
 ![screenshot](./images/screenshot.jpg)
 
 ## Contents:
