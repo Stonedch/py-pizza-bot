@@ -1,5 +1,7 @@
 # Pizza TG Bot
 
+![screenshot](./images/screenshot.jpg)
+
 ## Contents:
 
 * [Settings](#settings)
